@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA082E1C2A99E3E100EA10D1 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA082E1B2A99E3E100EA10D1 /* TestView.swift */; };
 		EA93BD362A986D58005D0585 /* MemoAppSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA93BD352A986D58005D0585 /* MemoAppSwiftApp.swift */; };
 		EA93BD382A986D58005D0585 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA93BD372A986D58005D0585 /* ContentView.swift */; };
 		EA93BD3A2A986D59005D0585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA93BD392A986D59005D0585 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA082E1B2A99E3E100EA10D1 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		EA93BD322A986D58005D0585 /* MemoAppSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoAppSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA93BD352A986D58005D0585 /* MemoAppSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoAppSwiftApp.swift; sourceTree = "<group>"; };
 		EA93BD372A986D58005D0585 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				EA93BD352A986D58005D0585 /* MemoAppSwiftApp.swift */,
 				EA93BD372A986D58005D0585 /* ContentView.swift */,
+				EA082E1B2A99E3E100EA10D1 /* TestView.swift */,
 				EA93BD392A986D59005D0585 /* Assets.xcassets */,
 				EA93BD3B2A986D59005D0585 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA082E1C2A99E3E100EA10D1 /* TestView.swift in Sources */,
 				EA93BD382A986D58005D0585 /* ContentView.swift in Sources */,
 				EA93BD362A986D58005D0585 /* MemoAppSwiftApp.swift in Sources */,
 			);
