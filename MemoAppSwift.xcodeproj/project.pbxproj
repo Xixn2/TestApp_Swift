@@ -9,18 +9,23 @@
 /* Begin PBXBuildFile section */
 		EA082E1C2A99E3E100EA10D1 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA082E1B2A99E3E100EA10D1 /* TestView.swift */; };
 		EA93BD362A986D58005D0585 /* MemoAppSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA93BD352A986D58005D0585 /* MemoAppSwiftApp.swift */; };
-		EA93BD382A986D58005D0585 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA93BD372A986D58005D0585 /* ContentView.swift */; };
 		EA93BD3A2A986D59005D0585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA93BD392A986D59005D0585 /* Assets.xcassets */; };
 		EA93BD3D2A986D59005D0585 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA93BD3C2A986D59005D0585 /* Preview Assets.xcassets */; };
+		EAB204FE2A9E3404003DB03C /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = EAB204FD2A9E3404003DB03C /* Fonts */; };
+		EAB205012A9E34EC003DB03C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB205002A9E34EC003DB03C /* ContentView.swift */; };
+		EAF18C4E2A9DED4A00EB27EC /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF18C4D2A9DED4A00EB27EC /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EA082E1B2A99E3E100EA10D1 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		EA93BD322A986D58005D0585 /* MemoAppSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoAppSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA93BD352A986D58005D0585 /* MemoAppSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoAppSwiftApp.swift; sourceTree = "<group>"; };
-		EA93BD372A986D58005D0585 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EA93BD392A986D59005D0585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA93BD3C2A986D59005D0585 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EAB204FD2A9E3404003DB03C /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		EAB204FF2A9E341B003DB03C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EAB205002A9E34EC003DB03C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EAF18C4D2A9DED4A00EB27EC /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +42,10 @@
 		EA93BD292A986D58005D0585 = {
 			isa = PBXGroup;
 			children = (
+				EA93BD352A986D58005D0585 /* MemoAppSwiftApp.swift */,
+				EAB205002A9E34EC003DB03C /* ContentView.swift */,
+				EAF18C4D2A9DED4A00EB27EC /* SearchView.swift */,
+				EA082E1B2A99E3E100EA10D1 /* TestView.swift */,
 				EA93BD342A986D58005D0585 /* MemoAppSwift */,
 				EA93BD332A986D58005D0585 /* Products */,
 			);
@@ -53,9 +62,8 @@
 		EA93BD342A986D58005D0585 /* MemoAppSwift */ = {
 			isa = PBXGroup;
 			children = (
-				EA93BD352A986D58005D0585 /* MemoAppSwiftApp.swift */,
-				EA93BD372A986D58005D0585 /* ContentView.swift */,
-				EA082E1B2A99E3E100EA10D1 /* TestView.swift */,
+				EAB204FD2A9E3404003DB03C /* Fonts */,
+				EAB204FF2A9E341B003DB03C /* Info.plist */,
 				EA93BD392A986D59005D0585 /* Assets.xcassets */,
 				EA93BD3B2A986D59005D0585 /* Preview Content */,
 			);
@@ -128,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAB204FE2A9E3404003DB03C /* Fonts in Resources */,
 				EA93BD3D2A986D59005D0585 /* Preview Assets.xcassets in Resources */,
 				EA93BD3A2A986D59005D0585 /* Assets.xcassets in Resources */,
 			);
@@ -140,8 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAF18C4E2A9DED4A00EB27EC /* SearchView.swift in Sources */,
 				EA082E1C2A99E3E100EA10D1 /* TestView.swift in Sources */,
-				EA93BD382A986D58005D0585 /* ContentView.swift in Sources */,
+				EAB205012A9E34EC003DB03C /* ContentView.swift in Sources */,
 				EA93BD362A986D58005D0585 /* MemoAppSwiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +283,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MemoAppSwift/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MemoAppSwift/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +314,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MemoAppSwift/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MemoAppSwift/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
